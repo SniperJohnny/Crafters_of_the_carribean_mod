@@ -1,7 +1,8 @@
 package io.sniperjohnny.github.crafters_of_the_carribean_mod;
 
 import com.mojang.logging.LogUtils;
-import io.sniperjohnny.github.crafters_of_the_carribean_mod.item.ModCreativeModeTabs;
+import io.sniperjohnny.github.crafters_of_the_carribean_mod.block.ModBlocks;
+import io.sniperjohnny.github.crafters_of_the_carribean_mod.creativemodetabs.ModCreativeModeTabs;
 import io.sniperjohnny.github.crafters_of_the_carribean_mod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +32,7 @@ public class Crafters_of_the_carribean_Mod
         IEventBus modEventBus = context.getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModItems.register(modEventBus);
         // Register the commonSetup method for modloading
