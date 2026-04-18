@@ -23,6 +23,10 @@ public class ModBlocks {
 public static final RegistryObject<Block> CRYSTALLITE_BLOCK = registerBlock("crystallite_block",
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.SCULK)));
 
+    public static final RegistryObject<Block> METAL_BLOCK = registerBlock("metal_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn= BLOCKS.register(name, block);

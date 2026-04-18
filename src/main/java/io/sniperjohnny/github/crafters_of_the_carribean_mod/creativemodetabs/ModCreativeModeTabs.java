@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.mod_blocks_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.CRYSTALLITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.METAL_BLOCK.get());
                     }).build());
     public static RegistryObject<CreativeModeTab> MOD_INGREDIENTS_TAB = CREATIVE_MODE_TABS.register("mod_ingredients_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CRYSTALLITE.get()))

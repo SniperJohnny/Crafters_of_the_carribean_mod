@@ -2,5 +2,11 @@
   "item.crafters_of_the_carribean_mod.crystallite": "Crystallite",
   "item.crafters_of_the_carribean_mod.metal": "Metal",
 
-  "creativetab.mod_ingredients_tab": "Crafters of the Carribean Ingredients"
+
+  "block.crafters_of_the_carribean_mod.crystallite_block": "Crystallite Block",
+  "block.crafters_of_the_carribean_mod.metal_block": "Metal Block",
+
+
+  "creativetab.mod_ingredients_tab": "Crafters of the Carribean Ingredients",
+  "creativetab.mod_blocks_tab": "Crafters of the Carribean Blocks"
 }

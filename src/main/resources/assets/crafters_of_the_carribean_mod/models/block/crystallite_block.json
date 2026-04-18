@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "crafters_of_the_carribean_mod:block/crystallite_block"
+  }
+}
