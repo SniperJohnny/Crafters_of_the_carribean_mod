@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "sss",
+    "sgi",
+    "iii"
+  ],
+  "key": {
+    "s": {
+      "item": "crafters_of_the_carribean_mod:metal_scrap"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "i":{
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "crafters_of_the_carribean_mod:metal",
+    "count": 4
+  }
+}

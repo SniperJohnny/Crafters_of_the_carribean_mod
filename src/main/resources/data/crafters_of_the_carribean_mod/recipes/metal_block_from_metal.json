@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crafters_of_the_carribean_mod:metal"
+    }
+  },
+  "result": {
+    "item": "crafters_of_the_carribean_mod:metal_block"
+  }
+}

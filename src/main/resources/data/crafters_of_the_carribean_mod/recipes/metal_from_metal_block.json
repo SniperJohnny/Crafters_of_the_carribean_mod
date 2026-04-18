@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "crafters_of_the_carribean_mod:metal_block"
+    }
+  ],
+  "result": {
+    "item": "crafters_of_the_carribean_mod:metal",
+    "count": 9
+  }
+}

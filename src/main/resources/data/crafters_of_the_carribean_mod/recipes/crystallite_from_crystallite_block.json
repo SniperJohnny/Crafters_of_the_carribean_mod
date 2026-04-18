@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "crafters_of_the_carribean_mod:crystallite_block"
+    }
+  ],
+  "result": {
+    "item": "crafters_of_the_carribean_mod:crystallite",
+    "count": 9
+  }
+}

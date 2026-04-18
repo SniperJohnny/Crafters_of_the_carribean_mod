@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 30,
+  "group": "metal",
+  "ingredient": {
+    "item": "crafters_of_the_carribean_mod:metal_scrap"
+  },
+  "result": "crafters_of_the_carribean_mod:metal"
+}

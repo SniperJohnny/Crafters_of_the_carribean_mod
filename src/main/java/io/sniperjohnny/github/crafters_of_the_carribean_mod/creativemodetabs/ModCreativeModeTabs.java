@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.CRYSTALLITE.get());
                         pOutput.accept(ModItems.METAL.get());
+                        pOutput.accept(ModItems.METAL_SCRAP.get());
                     }).build());
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

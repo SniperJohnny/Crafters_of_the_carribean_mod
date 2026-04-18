@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 500,
+  "experience": 60,
+  "group": "metal",
+  "ingredient": {
+    "item": "crafters_of_the_carribean_mod:metal_scrap"
+  },
+  "result": "crafters_of_the_carribean_mod:metal"
+}
